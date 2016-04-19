@@ -53,7 +53,7 @@ gulp.task('libs', function () {
 });
 
 gulp.task('tscopy', function () {
-    return gulp.src(paths.script + '**/*[a-z].ts')
+    return gulp.src(paths.script + '**/*.ts')
         .pipe(gulp.dest(paths.tsscript));
 });
 
